@@ -14,6 +14,14 @@ The Ultimate RAG Analytics Assistant is an end-to-end Retrieval Augmented Genera
 
 ---
 
+## Demo
+<video controls width="100%">
+  <source src="frontend/BusinessGPT%20-%20AI%20Analytics%20Assistant%20-%20Google%20Chrome%202025-11-08%2022-27-02.mp4" type="video/mp4">
+  Your browser does not support the video tag. [Download the demo](frontend/BusinessGPT%20-%20AI%20Analytics%20Assistant%20-%20Google%20Chrome%202025-11-08%2022-27-02.mp4).
+</video>
+
+---
+
 ## Project Structure
 - `ultimate_rag_pipeline.py` – Core pipeline: retrieval, understanding, SQL generation, analytics, memory, and learning systems.
 - `ultimate_rag_api.py` – Flask application exposing pipeline capabilities over HTTP.
