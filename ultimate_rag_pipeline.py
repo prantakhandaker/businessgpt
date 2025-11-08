@@ -68,8 +68,8 @@ class PipelineJSONEncoder(json.JSONEncoder):
 BQ_PROJECT = "skf-bq-analytics-hub"
 BQ_DATASET = "mrep_skf"
 VERTEX_PROJECT = "tcl-vertex-ai"
-BQ_CREDENTIALS = "credentials/bm-409@skf-bq-analytics-hub.iam.gserviceaccount.com.json"
-VERTEX_CREDENTIALS = "credentials/tcl-vertex-ai-58aa168440df.json"
+BQ_CREDENTIALS = "credentials/*json"
+VERTEX_CREDENTIALS = "credentials/*json.json"
 LOCATION = "asia-southeast1"
 
 EMBEDDING_MODEL = "gemini-embedding-001"
