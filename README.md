@@ -58,8 +58,8 @@ The Ultimate RAG Analytics Assistant is an end-to-end Retrieval Augmented Genera
    pip install -r requirements_ultimate.txt
    ```
 3. **Configure credentials**
-   - Place BigQuery service account JSON in `credentials/bm-409@skf-bq-analytics-hub.iam.gserviceaccount.com.json`.
-   - Place Vertex AI service account JSON in `credentials/tcl-vertex-ai-58aa168440df.json`.
+   - Place BigQuery service account JSON in `credentials/.json`.
+   - Place Vertex AI service account JSON in `credentials/.json`.
    - Update the constants near the top of `ultimate_rag_pipeline.py` if your filenames, projects, or locations differ.
    - (Optional) export `GOOGLE_APPLICATION_CREDENTIALS` pointing to each file if you prefer environment-based authentication.
 4. **Start Qdrant**
