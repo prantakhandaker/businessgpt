@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.swp
+
+.env
+.venv/
+venv/
+env/
+
+# Local data and cache artifacts
+conversation_cache.json
+
+# Credentials and secrets
+credentials/*.json
+
+# OS / Editor folders
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Frontend build output
+dist/
+build/
+node_modules/
+
